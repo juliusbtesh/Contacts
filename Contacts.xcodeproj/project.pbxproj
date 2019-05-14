@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44586521228A1C3700E95149 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44586520228A1C3700E95149 /* String.swift */; };
+		44586525228A1C9100E95149 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44586524228A1C9100E95149 /* Date.swift */; };
 		44C1403F2289D16000AF63C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C1403E2289D16000AF63C5 /* AppDelegate.swift */; };
-		44C140412289D16000AF63C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C140402289D16000AF63C5 /* ViewController.swift */; };
 		44C140442289D16000AF63C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C140422289D16000AF63C5 /* Main.storyboard */; };
 		44C140472289D16000AF63C5 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44C140452289D16000AF63C5 /* Contacts.xcdatamodeld */; };
 		44C140492289D16200AF63C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C140482289D16200AF63C5 /* Assets.xcassets */; };
 		44C1404C2289D16200AF63C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C1404A2289D16200AF63C5 /* LaunchScreen.storyboard */; };
+		44C140542289D2FF00AF63C5 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C140532289D2FF00AF63C5 /* ContactsTableViewController.swift */; };
+		44C140562289D4AE00AF63C5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C140552289D4AE00AF63C5 /* APIManager.swift */; };
+		44C140582289D51A00AF63C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C140572289D51A00AF63C5 /* Constants.swift */; };
+		44C1405B2289D68000AF63C5 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C1405A2289D68000AF63C5 /* Contact.swift */; };
+		44C140602289FC7900AF63C5 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C1405F2289FC7900AF63C5 /* InfoTableViewCell.swift */; };
+		44C140622289FCC500AF63C5 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C140612289FCC500AF63C5 /* HeaderTableViewCell.swift */; };
+		44C140642289FF0100AF63C5 /* ContactDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C140632289FF0100AF63C5 /* ContactDetailTableViewController.swift */; };
+		44C14066228A005500AF63C5 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C14065228A005500AF63C5 /* ContactTableViewCell.swift */; };
+		A9C53378D5F0FCF49AF5D3CB /* Pods_Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7537594F81C2061682E8561A /* Pods_Contacts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BACBA9A07F22B090E98233B /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.debug.xcconfig"; path = "Target Support Files/Pods-Contacts/Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		44586520228A1C3700E95149 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		44586524228A1C9100E95149 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		44C1403B2289D16000AF63C5 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C1403E2289D16000AF63C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44C140402289D16000AF63C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44C140432289D16000AF63C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44C140462289D16000AF63C5 /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
 		44C140482289D16200AF63C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C1404B2289D16200AF63C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C1404D2289D16200AF63C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C140532289D2FF00AF63C5 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		44C140552289D4AE00AF63C5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		44C140572289D51A00AF63C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		44C1405A2289D68000AF63C5 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		44C1405F2289FC7900AF63C5 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		44C140612289FCC500AF63C5 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		44C140632289FF0100AF63C5 /* ContactDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailTableViewController.swift; sourceTree = "<group>"; };
+		44C14065228A005500AF63C5 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		7537594F81C2061682E8561A /* Pods_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		753B03F57BE501631FFF9B7B /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C53378D5F0FCF49AF5D3CB /* Pods_Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4458651F228A1C2D00E95149 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				44586520228A1C3700E95149 /* String.swift */,
+				44586524228A1C9100E95149 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		44C140322289D16000AF63C5 = {
 			isa = PBXGroup;
 			children = (
 				44C1403D2289D16000AF63C5 /* Contacts */,
 				44C1403C2289D16000AF63C5 /* Products */,
+				7313796040C9E3E003E0B9B3 /* Pods */,
+				FE5C8A6BBB164FFE1393FBF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +90,14 @@
 		44C1403D2289D16000AF63C5 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				4458651F228A1C2D00E95149 /* Extensions */,
+				44C140572289D51A00AF63C5 /* Constants.swift */,
+				44C140552289D4AE00AF63C5 /* APIManager.swift */,
 				44C1403E2289D16000AF63C5 /* AppDelegate.swift */,
-				44C140402289D16000AF63C5 /* ViewController.swift */,
+				44C140532289D2FF00AF63C5 /* ContactsTableViewController.swift */,
+				44C140632289FF0100AF63C5 /* ContactDetailTableViewController.swift */,
+				44C1405C2289FC1D00AF63C5 /* Cells */,
+				44C140592289D67800AF63C5 /* Data */,
 				44C140422289D16000AF63C5 /* Main.storyboard */,
 				44C140482289D16200AF63C5 /* Assets.xcassets */,
 				44C1404A2289D16200AF63C5 /* LaunchScreen.storyboard */,
@@ -67,6 +107,41 @@
 			path = Contacts;
 			sourceTree = "<group>";
 		};
+		44C140592289D67800AF63C5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				44C1405A2289D68000AF63C5 /* Contact.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		44C1405C2289FC1D00AF63C5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				44C14065228A005500AF63C5 /* ContactTableViewCell.swift */,
+				44C140612289FCC500AF63C5 /* HeaderTableViewCell.swift */,
+				44C1405F2289FC7900AF63C5 /* InfoTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7313796040C9E3E003E0B9B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BACBA9A07F22B090E98233B /* Pods-Contacts.debug.xcconfig */,
+				753B03F57BE501631FFF9B7B /* Pods-Contacts.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE5C8A6BBB164FFE1393FBF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7537594F81C2061682E8561A /* Pods_Contacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44C140502289D16200AF63C5 /* Build configuration list for PBXNativeTarget "Contacts" */;
 			buildPhases = (
+				40FA118976F5DD64516BBA67 /* [CP] Check Pods Manifest.lock */,
 				44C140372289D16000AF63C5 /* Sources */,
 				44C140382289D16000AF63C5 /* Frameworks */,
 				44C140392289D16000AF63C5 /* Resources */,
+				F79928732DE15DFF13D822C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +210,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40FA118976F5DD64516BBA67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F79928732DE15DFF13D822C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Contacts/Pods-Contacts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Contacts/Pods-Contacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44C140372289D16000AF63C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C140412289D16000AF63C5 /* ViewController.swift in Sources */,
+				44C140642289FF0100AF63C5 /* ContactDetailTableViewController.swift in Sources */,
+				44586521228A1C3700E95149 /* String.swift in Sources */,
+				44C140622289FCC500AF63C5 /* HeaderTableViewCell.swift in Sources */,
+				44C1405B2289D68000AF63C5 /* Contact.swift in Sources */,
+				44C140602289FC7900AF63C5 /* InfoTableViewCell.swift in Sources */,
+				44C140582289D51A00AF63C5 /* Constants.swift in Sources */,
+				44C140562289D4AE00AF63C5 /* APIManager.swift in Sources */,
+				44586525228A1C9100E95149 /* Date.swift in Sources */,
+				44C14066228A005500AF63C5 /* ContactTableViewCell.swift in Sources */,
 				44C1403F2289D16000AF63C5 /* AppDelegate.swift in Sources */,
 				44C140472289D16000AF63C5 /* Contacts.xcdatamodeld in Sources */,
+				44C140542289D2FF00AF63C5 /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +417,7 @@
 		};
 		44C140512289D16200AF63C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BACBA9A07F22B090E98233B /* Pods-Contacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,15 +427,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.juliusbtesh.contacts.Contacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juliusbtesh.contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		44C140522289D16200AF63C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 753B03F57BE501631FFF9B7B /* Pods-Contacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,10 +446,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.juliusbtesh.contacts.Contacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juliusbtesh.contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
